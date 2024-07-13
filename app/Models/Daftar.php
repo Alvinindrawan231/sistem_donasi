@@ -19,7 +19,7 @@ class Daftar extends Model
         'image',
         'name',
         'email',
-        'telepon',
+        'telephone',
         'alamat',
         'jumlah'
         
