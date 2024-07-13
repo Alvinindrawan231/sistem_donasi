@@ -2,6 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Blog;
+use Faker\Factory as Faker;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -9,31 +12,19 @@ class BlogSeeder extends Seeder
 {
     /**
      * Run the database seeds.
+     *
+     * @return void
      */
-    public function run(): void
+    public function run()
     {
-        DB::table('blogs')->insert([
-            [
-                'image' => 'image1.jpg',
-                'title' => 'Blog Title 1',
-                'description' => 'Description for blog 1',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            [
-                'image' => 'image2.jpg',
-                'title' => 'Blog Title 2',
-                'description' => 'Description for blog 2',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            [
-                'image' => 'image3.jpg',
-                'title' => 'Blog Title 3',
-                'description' => 'Description for blog 3',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-        ]);
+        $faker = faker::create();
+
+        for ($i = 0; $i < 10; $i++) {
+            Blog::create([
+                'image' => $faker->imageUrl(150, 150, true, 'Faker'),
+                'title' => $faker->sentence,
+                'description' => $faker->paragraph,
+            ]);
+        }
     }
 }
