@@ -3,16 +3,24 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
+=======
+use App\Models\Daftar;
+use Faker\Factory as Faker;
+>>>>>>> dbfc43fc96157831bd47325129e5fba761974321
 
 class DaftarSeeder extends Seeder
 {
     /**
      * Run the database seeds.
+     *
+     * @return void
      */
-    public function run(): void
+    public function run()
     {
+<<<<<<< HEAD
         DB::table('daftars')->insert([
             [
                 'title' => 'Donation 1',
@@ -48,5 +56,18 @@ class DaftarSeeder extends Seeder
                 'updated_at' => now(),
             ],
         ]);
+=======
+        $faker = Faker::create();
+
+        for ($i = 0; $i < 10; $i++) {
+            Daftar::create([
+                'name' => $faker->name,
+                'email' => $faker->unique()->safeEmail,
+                'telephone' => $faker->phoneNumber,
+                'address' => $faker->address,
+                'nominal' => $faker->numberBetween(100, 1000)
+            ]);
+        }
+>>>>>>> dbfc43fc96157831bd47325129e5fba761974321
     }
 }

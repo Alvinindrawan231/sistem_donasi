@@ -15,13 +15,16 @@ class Daftar extends Model
      *  @var array
      */
     protected $fillable = [
-        'title',
-        'image',
         'name',
         'email',
         'telephone',
+<<<<<<< HEAD
         'alamat',
         'jumlah'
         
+=======
+        'address',
+        'nominal'
+>>>>>>> dbfc43fc96157831bd47325129e5fba761974321
     ];
 }

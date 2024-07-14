@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,10 +37,13 @@
 }
 </style>
 
+=======
+>>>>>>> dbfc43fc96157831bd47325129e5fba761974321
 @extends('layouts.app')
 
 @section('content')
 <div class="card">
+<<<<<<< HEAD
     <div class="card-header bg-success text-white">
        <center>Data Pendaftaran Donasi</center>
     </div>
@@ -47,6 +51,12 @@
         <p class="text-center">Teks deskripsi atau informasi lainnya di atas tabel.</p>
         <img src="/path/to/image.jpg" alt="Image" class="img-fluid mx-auto d-block" style="max-width: 400px;">
         
+=======
+    <div class="card-header">
+       <center><h5 class="font-weight-bold">DATA PENDAFTARAN DONASI</h5> </center>
+    </div>
+    <div class="card-body">
+>>>>>>> dbfc43fc96157831bd47325129e5fba761974321
         @if (session('success'))
             <div class="alert alert-success">
                 {{ session('success') }}
@@ -55,13 +65,21 @@
 
         <div class="row mb-3">
             <div class="col-md-12 text-right">
+<<<<<<< HEAD
                 <a href="{{ route('daftar.create') }}" class="btn btn-success">Tambah Data</a>
+=======
+                <a href="{{ route('daftar.create') }}" class="btn btn-primary">Tambah Data</a>
+>>>>>>> dbfc43fc96157831bd47325129e5fba761974321
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-9">
+<<<<<<< HEAD
                 <table class="table table-bordered table-striped">
+=======
+                <table class="table table-bordered">
+>>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                     <thead class="thead-light">
                         <tr>
                             <th scope="col">No</th>
@@ -98,11 +116,92 @@
                     {{ $daftars->links() }}
                 </div>
             </div>
+<<<<<<< HEAD
             <div class="col-md-3 border p-3 bg-light">
+=======
+            <div class="col-md-3 border p-3">
+>>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 <h5 class="font-weight-bold">Informasi Pendonasi</h5>
                 <p class="mt-2">Jumlah Pendonasi: {{ $total }}</p>
             </div>
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 @endsection
+=======
+
+<style>
+/* Your custom CSS styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #bcf8dae4; /* Light green background color */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #d7ffd9; /* Navbar background color */
+}
+
+.navbar .navbar-brand, .navbar-nav .nav-link {
+    color: #004d40; /* Navbar text color */
+    font-weight: bold;
+}
+
+.card-header {
+    background-color: #d7ffd9; /* Card header background color */
+    text-align: center;
+}
+
+.table {
+    background-color: white; /* Table background color */
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Align table cells vertically */
+}
+
+.alert-success {
+    background-color: #dff0d8; /* Success alert background color */
+    color: #3c763d; /* Success alert text color */
+    border-color: #d6e9c6; /* Success alert border color */
+}
+
+.btn-primary {
+    background-color: #28a745; /* Primary button background color */
+    color: white; /* Primary button text color */
+}
+
+.btn-primary:hover {
+    background-color: #218830; /* Primary button hover background color */
+}
+
+.btn-danger {
+    background-color: #d9534f; /* Danger button background color */
+    color: white; /* Danger button text color */
+}
+
+.btn-danger:hover {
+    background-color: #c9302c; /* Danger button hover background color */
+}
+
+.border {
+    border: 1px solid #dee2e6; /* Border color */
+}
+
+.font-weight-bold {
+    font-weight: bold; /* Bold font weight */
+}
+
+.mt-2 {
+    margin-top: 0.5rem; /* Margin top */
+}
+
+.text-center {
+    text-align: center; /* Center align text */
+}
+</style>
+
+@endsection
+>>>>>>> dbfc43fc96157831bd47325129e5fba761974321
