@@ -130,11 +130,7 @@
                         <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                     </li>
                     <li class="nav-item">
-<<<<<<< HEAD
-                        <a class="nav-link" href="{{ route('daftar') }}">Daftar</a>
-=======
                         <a class="nav-link" href="{{ route('daftar.index') }}">Daftar</a>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                     </li>
                 </ul>
             </div>
@@ -159,11 +155,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Bantu Renovasi Rumah Warga Dhuafa Palestina</h5>
                     <p class="card-text">Pengetatan Blokade Israel atas Gaza yang dimulai pada tahun 2007 membawa dampak yang sangat buruk pada wilayah Gaza. Kondisi ini diperparah oleh sejumlah agresi yang dilancarkan militer Israel atas wilayah Gaza hingga hari ini.</p>
-<<<<<<< HEAD
-                    <a href="#" class="btn btn-primary">Lihat Detail</a>
-=======
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPoster6">Lihat Detail</button>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 </div>
             </div>
         </div>
@@ -173,11 +165,7 @@
                 <div class="card-body">
                     <h5 class="card-title">DONASI SOSIAL, INFAK DAN SEDEKAH </h5>
                     <p class="card-text">adalah program donasi untuk memenuhi kebutuhan dana operasional Lembaga Wakaf MUI dan untuk Gerakan dakwah dan penguatan ekonomi umat.</p>
-<<<<<<< HEAD
-                    <a href="#" class="btn btn-primary">Lihat Detail</a>
-=======
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPoster7">Lihat Detail</button>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 </div>
             </div>
         </div>
@@ -187,19 +175,13 @@
                 <div class="card-body">
                     <h5 class="card-title">Peduli Gempa Cianjur</h5>
                     <p class="card-text">Innalillahi wainna ilaihi raji'un...</p> 
-<<<<<<< HEAD
-                    <a href="#" class="btn btn-primary">Lihat Detail</a>
-=======
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPoster8">Lihat Detail</button>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<<<<<<< HEAD
-=======
 <!-- Modals -->
 <!-- Modal for poster6 -->
 <div class="modal fade" id="modalPoster6" tabindex="-1" role="dialog" aria-labelledby="modalPoster6Label" aria-hidden="true">
@@ -279,7 +261,6 @@
     </div>
 </div>
 
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
 <!-- Footer -->
 <footer>
     <div class="container">
@@ -326,7 +307,3 @@
 
 </body>
 </html>
-<<<<<<< HEAD
-=======
-
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321

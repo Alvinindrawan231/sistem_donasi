@@ -103,11 +103,7 @@
                         <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                     </li>
                     <li class="nav-item">
-<<<<<<< HEAD
-                        <a class="nav-link" href="{{ route('daftar') }}">Daftar</a>
-=======
                         <a class="nav-link" href="{{ route('daftar.index') }}">Daftar</a>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                     </li>
                 </ul>
             </div>
@@ -120,11 +116,7 @@
     <div class="container">
         <h1 class="display-4">Selamat Datang di Website Donasi Kami</h1>
         <p class="lead">Bantu sesama dengan berdonasi melalui platform kami</p>
-<<<<<<< HEAD
-        <a class="btn btn-lg btn-light" href="{{ route('daftar') }}" role="button">Mulai Salurkan Donasi</a>
-=======
         <a class="btn btn-lg btn-light" href="{{ route('daftar.index') }}" role="button">Mulai Salurkan Donasi</a>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
     </div>
 </section>
 
@@ -135,22 +127,14 @@
             <div class="card mb-4">
                 <img class="card-img-top" src="{{ asset('image/poster2.jpeg') }}" alt="poster2">
                 <div class="card-body">
-<<<<<<< HEAD
-                    <h5 class="card-title">Bantuan Sandang Dan Pangan, "O Allah, help and protect the people of Palestine" #PrayForPalestine</h5>
-                    <p class="card-text">Adela Nanda Violita</p>
-=======
                     <h5 class="card-title">Ringankan Penderitaan Saudara Di palestina</h5>
                     <p class="card-text">Adela Nanda Violita</p>
                     <p class="card-text"></p>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                     <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
                     </div>
                     <p>Terkumpul: Rp. 1.000.526,00</p>
                     <p>Sisa: 20 hari</p>
-<<<<<<< HEAD
-                    <a href="#" class="btn btn-primary">Lihat Detail</a>
-=======
                     <a href="#" class="btn btn-primary" onclick="showDetail(
                     'Saudara kita di Palestina sedang menghadapi cobaan yang sangat berat. Konflik berkepanjangan telah meninggalkan luka mendalam, baik fisik maupun emosional. Banyak keluarga kehilangan tempat tinggal, akses ke kebutuhan dasar, dan kehidupan normal mereka. Melalui donasi Anda, kita dapat meringankan penderitaan mereka dan memberikan harapan baru. Setiap sumbangan, sekecil apapun, akan sangat berarti dalam membantu mereka bertahan dan memulai kembali hidup mereka.',
                     'Adela Nanda Violita',
@@ -159,7 +143,6 @@
                     '20 hari',
                     '{{ asset('image/poster2.jpeg') }}')">Lihat Detail</a>
 
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 </div>
             </div>
         </div>
@@ -167,16 +150,6 @@
             <div class="card mb-4">
                 <img class="card-img-top" src="{{ asset('image/poster3.jpg') }}" alt="poster3">
                 <div class="card-body">
-<<<<<<< HEAD
-                    <h5 class="card-title">Bantu Wujudkan 1.000 Alat Sekolah #YatimGaza</h5>
-                    <p class="card-text">Tasya Regiana</p>
-                    <div class="progress mb-2">
-                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-                    </div>
-                    <p>Terkumpul: Rp. 1.211.620,00</p>
-                    <p>Sisa: 31 hari</p>
-                    <a href="#" class="btn btn-primary">Lihat Detail</a>
-=======
                     <h5 class="card-title">Luka Palestina adalah Luka Kita Semua</h5>
                     <p class="card-text">Tasya Regiana</p>
                     <div class="progress mb-2">
@@ -191,7 +164,6 @@
                             'Rp. 1.211.620,00',
                             '25 hari',
                             '{{ asset('image/poster3.jpg') }}')">Lihat Detail</a>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 </div>
             </div>
         </div>
@@ -199,20 +171,13 @@
             <div class="card mb-4">
                 <img class="card-img-top" src="{{ asset('image/poster1.jpeg') }}" alt="poster1">
                 <div class="card-body">
-<<<<<<< HEAD
-                    <h5 class="card-title">Wujudkan Mimpi Yatim Dzuafa dengan BESTARI</h5>
-=======
                     <h5 class="card-title">Pendidikan Anak</h5>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                     <p class="card-text">Muhamad Alvin</p>
                     <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                     </div>
                     <p>Terkumpul: Rp. 10.050.710,00</p>
                     <p>Sisa: 11 hari</p>
-<<<<<<< HEAD
-                    <a href="#" class="btn btn-primary">Lihat Detail</a>
-=======
                     <a href="#" class="btn btn-primary" onclick="showDetail(
                             'Anak-anak adalah harapan masa depan kita. Namun, banyak anak di Palestina yang terpaksa putus sekolah karena konflik. Pendidikan adalah hak dasar setiap anak, dan melalui donasi Anda, kita dapat membantu memastikan bahwa anak-anak di Palestina mendapatkan kesempatan untuk belajar dan tumbuh. Dukungan Anda dapat menyediakan beasiswa, mendanai pembangunan sekolah, dan memastikan guru-guru dapat terus mengajar meskipun dalam kondisi sulit.',
                             'Muhamad Alvin',
@@ -220,7 +185,6 @@
                             'Rp. 10.050.710,00',
                             '11 hari',
                             '{{ asset('image/poster1.jpeg') }}')">Lihat Detail</a>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 </div>
             </div>
         </div>
@@ -228,16 +192,6 @@
             <div class="card mb-4">
                 <img class="card-img-top" src="{{ asset('image/poster5.png') }}" alt="poster5">
                 <div class="card-body">
-<<<<<<< HEAD
-                    <h5 class="card-title">Bantu Wujudkan 1.000 Alat Sekolah #YatimGaza</h5>
-                    <p class="card-text">Galuh Shoutika</p>
-                    <div class="progress mb-2">
-                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-                    </div>
-                    <p>Terkumpul: Rp. 1.211.620,00</p>
-                    <p>Sisa: 31 hari</p>
-                    <a href="#" class="btn btn-primary">Lihat Detail</a>
-=======
                     <h5 class="card-title">Donasi Perlengkapan dan Peralatan Sekolah</h5>
                     <p class="card-text ">Galuh Shoutika</p>
                     <div class="progress mb-2">
@@ -252,7 +206,6 @@
                             'Rp. 1.511.620,00',
                             '28 hari',
                             '{{ asset('image/poster5.png') }}')">Lihat Detail</a>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 </div>
             </div>
         </div>
@@ -260,16 +213,6 @@
             <div class="card mb-4">
                 <img class="card-img-top" src="{{ asset('image/poster4.png') }}" alt="poster4">
                 <div class="card-body">
-<<<<<<< HEAD
-                    <h5 class="card-title">Bantu Wujudkan 1.000 Alat Sekolah #YatimGaza</h5>
-                    <p class="card-text">Eva Nurrahma</p>
-                    <div class="progress mb-2">
-                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-                    </div>
-                    <p>Terkumpul: Rp. 1.211.620,00</p>
-                    <p>Sisa: 31 hari</p>
-                    <a href="#" class="btn btn-primary">Lihat Detail</a>
-=======
                     <h5 class="card-title">Sedekah Yatim</h5>
                     <p class="card-text">Eva Nurrahma</p>
                     <div class="progress mb-2">
@@ -284,15 +227,12 @@
                             'Rp. 1.711.620,00',
                             '20 hari',
                             '{{ asset('image/poster4.png') }}')">Lihat Detail</a>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<<<<<<< HEAD
-=======
 <!-- Modal Detail Donasi -->
 <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="detailModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -321,7 +261,6 @@
     </div>
 </div>
 
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
 <!-- Footer -->
 <footer>
     <div class="container">
@@ -365,10 +304,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-</body>
-</html>
-=======
 
 <!-- Script for Modal -->
 <script>
@@ -394,4 +329,3 @@
 </body>
 </html>
 
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321

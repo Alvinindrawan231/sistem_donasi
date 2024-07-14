@@ -1,62 +1,11 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Daftar</title>
-</head>
-<body>
-    <style>
-.navbar {
-    background-color: #d7ffd9; /* Warna latar belakang navbar */
-}
-
-.navbar .navbar-brand, .navbar-nav .nav-link {
-    color: #004d40; /* Warna teks navbar */
-    font-weight: bold;
-}
-
-.jumbotron .btn-primary {
-    background-color: #00796b; /* Warna tombol primary */
-    color: white;
-}
-
-.jumbotron .btn-secondary {
-    background-color: transparent; /* Warna tombol secondary */
-    color: #00796b;
-}
-
-.jumbotron .btn-primary:hover, .jumbotron .btn-secondary:hover {
-    background-color: #004d40;
-    color: white;
-}
-
-.jumbotron img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
-</style>
-
-=======
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
 @extends('layouts.app')
 
 @section('content')
 <div class="card">
-<<<<<<< HEAD
-    <div class="card-header bg-success text-white">
-       <center>Data Pendaftaran Donasi</center>
-    </div>
-    <div class="card-body">
-        <p class="text-center">Teks deskripsi atau informasi lainnya di atas tabel.</p>
-        <img src="/path/to/image.jpg" alt="Image" class="img-fluid mx-auto d-block" style="max-width: 400px;">
-        
-=======
     <div class="card-header">
        <center><h5 class="font-weight-bold">DATA PENDAFTARAN DONASI</h5> </center>
     </div>
     <div class="card-body">
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
         @if (session('success'))
             <div class="alert alert-success">
                 {{ session('success') }}
@@ -65,21 +14,13 @@
 
         <div class="row mb-3">
             <div class="col-md-12 text-right">
-<<<<<<< HEAD
-                <a href="{{ route('daftar.create') }}" class="btn btn-success">Tambah Data</a>
-=======
                 <a href="{{ route('daftar.create') }}" class="btn btn-primary">Tambah Data</a>
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-9">
-<<<<<<< HEAD
-                <table class="table table-bordered table-striped">
-=======
                 <table class="table table-bordered">
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                     <thead class="thead-light">
                         <tr>
                             <th scope="col">No</th>
@@ -116,20 +57,13 @@
                     {{ $daftars->links() }}
                 </div>
             </div>
-<<<<<<< HEAD
-            <div class="col-md-3 border p-3 bg-light">
-=======
             <div class="col-md-3 border p-3">
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
                 <h5 class="font-weight-bold">Informasi Pendonasi</h5>
                 <p class="mt-2">Jumlah Pendonasi: {{ $total }}</p>
             </div>
         </div>
     </div>
 </div>
-<<<<<<< HEAD
-@endsection
-=======
 
 <style>
 /* Your custom CSS styles */
@@ -204,4 +138,3 @@ body {
 </style>
 
 @endsection
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
