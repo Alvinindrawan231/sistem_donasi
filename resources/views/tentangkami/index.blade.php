@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -159,6 +160,10 @@ footer {
     <div class="overlay">
         <h1 class="display-4">Tentang Kami</h1>
     </div>
+=======
+<div>
+    
+>>>>>>> f4badfea8b48b5b4717879cd16256e18ec6fecb8
 </div>
 
 <!-- Content -->
