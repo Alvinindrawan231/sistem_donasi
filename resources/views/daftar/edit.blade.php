@@ -3,9 +3,6 @@
 @section('content')
 <div class="card">
     <div class="card-header">
-<<<<<<< HEAD
-       <center> Form Edit Data Pendaftaran Donasi </center>
-=======
         <div class="row">
             <div class="col">
                 <h5 class="mb-0">
@@ -16,18 +13,13 @@
                 <a href="{{ route('daftar.index') }}" class="btn btn-secondary">Back</a>
             </div>
         </div>
->>>>>>> f4badfea8b48b5b4717879cd16256e18ec6fecb8
     </div>
     <div class="card-body">
         @if ($errors->any())
         <div class="alert alert-danger">
             <ul>
                 @foreach ($errors->all() as $error)
-<<<<<<< HEAD
-                    <li>{{ $error }}</li>
-=======
                 <li>{{ $error }}</li>
->>>>>>> f4badfea8b48b5b4717879cd16256e18ec6fecb8
                 @endforeach
             </ul>
         </div>
@@ -60,8 +52,6 @@
         </form>
     </div>
 </div>
-<<<<<<< HEAD
-=======
 
 <style>
 /* Your custom CSS styles */
@@ -135,5 +125,4 @@ body {
 }
 </style>
 
->>>>>>> f4badfea8b48b5b4717879cd16256e18ec6fecb8
 @endsection
