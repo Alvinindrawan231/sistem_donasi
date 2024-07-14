@@ -13,8 +13,6 @@ return new class extends Migration
     {
         Schema::create('daftars', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->string('image');
             $table->string('name');
             $table->string('email')->unique();
             $table->string('telephone');
@@ -32,3 +30,4 @@ return new class extends Migration
         Schema::dropIfExists('daftars');
     }
 };
+
