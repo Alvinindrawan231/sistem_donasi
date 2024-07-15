@@ -115,11 +115,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home') }}">Welcome</a>
-                </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">home</a>
+                    <a class="nav-link" href="/">Welcome</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('donasi') }}">Donasi</a>
@@ -156,7 +156,7 @@
             <div class="card-body">
                 <h5 class="card-title">Bantu Renovasi Rumah Warga Dhuafa Palestina</h5>
                 <p class="card-text">Pengetatan Blokade Israel atas Gaza yang dimulai pada tahun 2007 membawa dampak yang sangat buruk pada wilayah Gaza. Kondisi ini diperparah oleh sejumlah agresi yang dilancarkan militer Israel atas wilayah Gaza hingga hari ini.</p>
-                <a href="#" class="btn btn-primary">Lihat Detail</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPoster6">Lihat Detail</button>
             </div>
         </div>
     </div>
@@ -166,7 +166,7 @@
             <div class="card-body">
                 <h5 class="card-title">DONASI SOSIAL, INFAK DAN SEDEKAH </h5>
                 <p class="card-text">adalah program donasi untuk memenuhi kebutuhan dana operasional Lembaga Wakaf MUI dan untuk Gerakan dakwah dan penguatan ekonomi umat.</p>
-                <a href="#" class="btn btn-primary">Lihat Detail</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPoster7">Lihat Detail</button>
             </div>
         </div>
     </div>
@@ -176,8 +176,87 @@
             <div class="card-body">
                 <h5 class="card-title">Peduli Gempa Cianjur</h5>
                 <p class="card-text">Innalillahi wainna ilaihi raji'un...</p> 
-                <a href="#" class="btn btn-primary">Lihat Detail</a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPoster8">Lihat Detail</button>
             </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modals -->
+<!-- Modal for poster6 -->
+<div class="modal fade" id="modalPoster6" tabindex="-1" role="dialog" aria-labelledby="modalPoster6Label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalPoster6Label">Bantu Renovasi Rumah Warga Dhuafa Palestina</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="{{ asset('image/poster6.jpeg') }}" class="img-fluid mb-3" alt="poster6">
+            <p>Mari bantu warga dhuafa Palestina mendapatkan tempat tinggal yang layak. Dengan donasi Anda, kita bisa memperbaiki rumah-rumah yang rusak dan memberikan harapan baru bagi keluarga yang membutuhkan. Setiap sumbangan sangat berarti bagi mereka yang terpinggirkan dan terluka oleh konflik berkepanjangan. Mari bersama-sama membangun masa depan yang lebih baik untuk Palestina.</p>
+            <p>Nomor Rekening:</p>
+            <p>Bank ABC</p>
+            <p>1234567890</p>
+            <p>a.n. Yayasan Peduli Palestina</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            <a href="{{ route('donasi') }}" class="btn btn-primary">Donasi Sekarang</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal for poster7 -->
+<div class="modal fade" id="modalPoster7" tabindex="-1" role="dialog" aria-labelledby="modalPoster7Label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalPoster7Label">DONASI SOSIAL, INFAK DAN SEDEKAH</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="{{ asset('image/poster7.png') }}" class="img-fluid mb-3" alt="poster7">
+            <p>Salurkan infak dan sedekah Anda untuk membantu mereka yang membutuhkan. Donasi sosial ini akan digunakan untuk berbagai program kemanusiaan, seperti bantuan pendidikan, kesehatan, dan pemberdayaan ekonomi. Dengan kontribusi Anda, kita bisa membuat perubahan nyata dan berkelanjutan dalam kehidupan banyak orang. Berbagi rezeki bukan hanya membantu orang lain, tapi juga membuka pintu berkah bagi diri kita sendiri.</p>
+            <p>Nomor Rekening:</p>
+            <p>Bank XYZ</p>
+            <p>0987654321</p>
+            <p>a.n. Yayasan Amal Sejahtera</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            <a href="{{ route('donasi') }}" class="btn btn-primary">Donasi Sekarang</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- Modal for poster8 -->
+<div class="modal fade" id="modalPoster8" tabindex="-1" role="dialog" aria-labelledby="modalPoster8Label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="modalPoster8Label">Peduli Gempa Cianjur</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <img src="{{ asset('image/poster8.jpg') }}" class="img-fluid mb-3" alt="poster8">
+            <p>Gempa Cianjur telah menyebabkan banyak kerusakan dan kehilangan. Mari bersama-sama membantu saudara-saudara kita yang terdampak bencana ini. Donasi Anda akan digunakan untuk menyediakan kebutuhan darurat seperti makanan, obat-obatan, dan tempat tinggal sementara, serta mendukung upaya rehabilitasi dan rekonstruksi. Dengan kepedulian dan dukungan Anda, kita bisa membantu mereka bangkit dari keterpurukan dan kembali menata kehidupan.</p>
+            <p>Nomor Rekening:</p>
+            <p>Bank DEF</p>
+            <p>1122334455</p>
+            <p>a.n. Yayasan Tanggap Bencana</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+            <a href="{{ route('donasi') }}" class="btn btn-primary">Donasi Sekarang</a>
         </div>
     </div>
 </div>
@@ -222,12 +301,8 @@
 </div>
 </footer>
 
-
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-</body>
-</html>
 
