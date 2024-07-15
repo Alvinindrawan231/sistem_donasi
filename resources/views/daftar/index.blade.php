@@ -2,9 +2,11 @@
 
 @section('content')
 <div class="card">
-    <div class="card-header">
-       <center><h5 class="font-weight-bold">DATA PENDAFTARAN DONASI</h5> </center>
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="font-weight-bold m-0 w-100 text-center">DATA PENDAFTARAN DONASI</h5>
+        <a href="{{ route('donasi') }}" class="btn btn-success back-button">Back</a>
     </div>
+
     <div class="card-body">
         @if (session('success'))
             <div class="alert alert-success">
@@ -14,7 +16,7 @@
 
         <div class="row mb-3">
             <div class="col-md-12 text-right">
-                <a href="{{ route('daftar.create') }}" class="btn btn-primary">Tambah Data</a>
+                <a href="{{ route('daftar.create') }}" class="btn btn-success">Tambah Data</a>
             </div>
         </div>
 
@@ -88,6 +90,18 @@ body {
     text-align: center;
 }
 
+.card-header .back-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card-header .back-button:hover {
+    background-color: darkgreen;
+}
+
 .table {
     background-color: white; /* Table background color */
 }
@@ -103,7 +117,6 @@ body {
 }
 
 .btn-primary {
-    background-color: #28a745; /* Primary button background color */
     color: white; /* Primary button text color */
 }
 

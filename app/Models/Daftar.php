@@ -18,13 +18,7 @@ class Daftar extends Model
         'name',
         'email',
         'telephone',
-<<<<<<< HEAD
-        'alamat',
-        'jumlah'
-        
-=======
         'address',
         'nominal'
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
     ];
 }

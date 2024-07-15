@@ -10,7 +10,7 @@
                 </h5>
     </div>
     <div class="col-auto">
-        <a href="{{ route('daftar.index') }}" class="btn btn-secondary">Back</a>
+        <a href="{{ route('daftar.index') }}" class="btn btn-success">Back</a>
     </div>
 </div>
 </div>

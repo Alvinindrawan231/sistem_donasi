@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @extends('layouts.app')
 
 @section('content')
@@ -52,10 +51,6 @@
             <button type="submit" class="btn btn-primary">Update</button>
         </form>
     </div>
-=======
-<div>
-    <!-- You must be the change you wish to see in the world. - Mahatma Gandhi -->
->>>>>>> dbfc43fc96157831bd47325129e5fba761974321
 </div>
 
 <style>
