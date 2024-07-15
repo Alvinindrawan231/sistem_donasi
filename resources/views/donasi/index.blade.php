@@ -121,7 +121,6 @@
 </section>
 
 <div class="container mt-5">
-    <h1 class="text-center mb-5">Donasi</h1>
     <div class="row">
         <div class="col-md-4">
             <div class="card mb-4">
@@ -220,7 +219,7 @@
                     </div>
                     <p>Terkumpul: Rp. 1.711.620,00</p>
                     <p>Sisa: 20 hari</p>
-                    <a href="#" class="btn btn-primary" onclick="showDetail(
+                    <a href="#" class="btn btn-success" onclick="showDetail(
                             'Anak-anak yatim di Palestina menghadapi tantangan yang luar biasa. Kehilangan orang tua mereka dalam konflik membuat mereka rentan dan membutuhkan perhatian khusus. Sedekah Anda dapat memberikan mereka kebutuhan dasar, seperti makanan, pakaian, dan tempat tinggal yang aman. Selain itu, sedekah juga bisa membantu mereka mendapatkan dukungan psikologis dan pendidikan yang sangat mereka butuhkan. Mari bersama-sama memberikan cinta dan harapan bagi anak-anak yatim di Palestina.',
                             'Eva Nurrahma',
                             50,
@@ -255,7 +254,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a id="modalLink" href="#" class="btn btn-primary">Salurkan Donasi</a>
+                <a id="modalLink" href="#" class="btn btn-success">Salurkan Donasi</a>
             </div>
         </div>
     </div>

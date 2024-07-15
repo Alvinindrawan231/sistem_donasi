@@ -114,7 +114,7 @@
             <hr class="my-4 bg-light">
             <p>Jadilah bagian dari perubahan dengan menyumbangkan donasi Anda sekarang.</p>
             <a class="btn btn-primary btn-lg mr-3" href="donasi" role="button">Donasi sekarang</a>
-            <a class="btn btn-secondary btn-lg" href="home" role="button">Next</a>
+            <a class="btn btn-secondary btn-lg" href="donasi" role="button">Next</a>
             <img src="{{ asset('images/welcome.jpg') }}" alt="welcome">
         </div>
     </div>

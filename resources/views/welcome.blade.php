@@ -105,39 +105,39 @@
 
 <!-- Header -->
 <header>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="{{ asset('image/donasi.jpeg') }}" alt="Logo" height="50">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Welcome</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home') }}">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('donasi') }}">Donasi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('tentangkami') }}">Tentang Kami</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('blog') }}">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('daftar.index') }}">Daftar</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="{{ asset('image/donasi.jpeg') }}" alt="Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('home') }}">Welcome</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('donasi') }}">Donasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('tentangkami') }}">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('blog') }}">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('daftar.index') }}">Daftar</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
-</header>
+    </nav>
+    </header>
 
 <!-- Content -->
 <div class="container">
@@ -204,7 +204,7 @@
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-            <a href="{{ route('donasi') }}" class="btn btn-primary">Donasi Sekarang</a>
+            <a href="{{ route('donasi') }}" class="btn btn-success">Donasi Sekarang</a>
         </div>
     </div>
 </div>
@@ -230,7 +230,7 @@
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-            <a href="{{ route('donasi') }}" class="btn btn-primary">Donasi Sekarang</a>
+            <a href="{{ route('donasi') }}" class="btn btn-success">Donasi Sekarang</a>
         </div>
     </div>
 </div>
@@ -256,7 +256,7 @@
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
-            <a href="{{ route('donasi') }}" class="btn btn-primary">Donasi Sekarang</a>
+            <a href="{{ route('donasi') }}" class="btn btn-success">Donasi Sekarang</a>
         </div>
     </div>
 </div>
