@@ -129,9 +129,9 @@
                     <h5 class="card-title">Ringankan Penderitaan Saudara Di palestina</h5>
                     <p class="card-text">Adela Nanda Violita</p>
                     <p class="card-text"></p>
-                    <div class="progress mb-2">
+                    {{-- <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-                    </div>
+                    </div> --}}
                     <p>Terkumpul: Rp. 1.000.526,00</p>
                     <p>Sisa: 20 hari</p>
                     <a href="#" class="btn btn-primary" onclick="showDetail(
@@ -151,9 +151,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Luka Palestina adalah Luka Kita Semua</h5>
                     <p class="card-text">Tasya Regiana</p>
-                    <div class="progress mb-2">
+                    {{-- <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
-                    </div>
+                    </div> --}}
                     <p>Terkumpul: Rp. 1.211.620,00</p>
                     <p>Sisa: 25 hari</p>
                     <a href="#" class="btn btn-primary" onclick="showDetail(
@@ -172,9 +172,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Pendidikan Anak</h5>
                     <p class="card-text">Muhamad Alvin</p>
-                    <div class="progress mb-2">
+                    {{-- <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-                    </div>
+                    </div> --}}
                     <p>Terkumpul: Rp. 10.050.710,00</p>
                     <p>Sisa: 11 hari</p>
                     <a href="#" class="btn btn-primary" onclick="showDetail(
@@ -193,9 +193,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Donasi Perlengkapan dan Peralatan Sekolah</h5>
                     <p class="card-text ">Galuh Shoutika</p>
-                    <div class="progress mb-2">
+                    {{-- <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-                    </div>
+                    </div> --}}
                     <p>Terkumpul: Rp. 1.511.620,00</p>
                     <p>Sisa: 31 hari</p>
                     <a href="#" class="btn btn-primary" onclick="showDetail(
@@ -214,9 +214,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Sedekah Yatim</h5>
                     <p class="card-text">Eva Nurrahma</p>
-                    <div class="progress mb-2">
+                    {{-- <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-                    </div>
+                    </div> --}}
                     <p>Terkumpul: Rp. 1.711.620,00</p>
                     <p>Sisa: 20 hari</p>
                     <a href="#" class="btn btn-success" onclick="showDetail(
