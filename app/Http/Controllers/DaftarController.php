@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Daftar;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Http\Request;
 
 class DaftarController extends Controller
@@ -37,10 +38,15 @@ class DaftarController extends Controller
 
     public function edit($id)
     {
-        $daftar = Daftar::findOrFail($id);
+        try {
+            $daftar = Daftar::findOrFail($id);
+        } catch (ModelNotFoundException $e) {
+            return redirect()->route('daftar.index')->with('error', 'ID tidak ditemukan');
+        }
 
         return view('daftar.edit', compact('daftar'));
     }
+
 
     public function update(Request $request, $id)
     {

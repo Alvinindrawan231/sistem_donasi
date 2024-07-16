@@ -131,9 +131,9 @@
                     <p class="card-text"></p>
                     {{-- <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-                    </div> --}}
                     <p>Terkumpul: Rp. 1.000.526,00</p>
                     <p>Sisa: 20 hari</p>
+                     </div> --}}
                     <a href="#" class="btn btn-primary" onclick="showDetail(
                     'Saudara kita di Palestina sedang menghadapi cobaan yang sangat berat. Konflik berkepanjangan telah meninggalkan luka mendalam, baik fisik maupun emosional. Banyak keluarga kehilangan tempat tinggal, akses ke kebutuhan dasar, dan kehidupan normal mereka. Melalui donasi Anda, kita dapat meringankan penderitaan mereka dan memberikan harapan baru. Setiap sumbangan, sekecil apapun, akan sangat berarti dalam membantu mereka bertahan dan memulai kembali hidup mereka.',
                     'Adela Nanda Violita',
@@ -153,9 +153,9 @@
                     <p class="card-text">Tasya Regiana</p>
                     {{-- <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
-                    </div> --}}
                     <p>Terkumpul: Rp. 1.211.620,00</p>
                     <p>Sisa: 25 hari</p>
+                     </div> --}}
                     <a href="#" class="btn btn-primary" onclick="showDetail(
                             'Ketika saudara kita di Palestina menderita, kita semua merasakan sakitnya. Solidaritas dan kepedulian kita adalah kunci dalam memberikan dukungan moral dan material yang mereka butuhkan. Luka yang mereka alami adalah luka kita semua, dan dengan bersatu, kita dapat memberikan bantuan yang sangat dibutuhkan. Donasi Anda dapat menyediakan makanan, obat-obatan, dan kebutuhan sehari-hari lainnya yang vital bagi mereka yang sedang berjuang.',
                             'Tasya Regiana',
@@ -174,9 +174,9 @@
                     <p class="card-text">Muhamad Alvin</p>
                     {{-- <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-                    </div> --}}
                     <p>Terkumpul: Rp. 10.050.710,00</p>
                     <p>Sisa: 11 hari</p>
+                    </div> --}}
                     <a href="#" class="btn btn-primary" onclick="showDetail(
                             'Anak-anak adalah harapan masa depan kita. Namun, banyak anak di Palestina yang terpaksa putus sekolah karena konflik. Pendidikan adalah hak dasar setiap anak, dan melalui donasi Anda, kita dapat membantu memastikan bahwa anak-anak di Palestina mendapatkan kesempatan untuk belajar dan tumbuh. Dukungan Anda dapat menyediakan beasiswa, mendanai pembangunan sekolah, dan memastikan guru-guru dapat terus mengajar meskipun dalam kondisi sulit.',
                             'Muhamad Alvin',
@@ -195,9 +195,9 @@
                     <p class="card-text ">Galuh Shoutika</p>
                     {{-- <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
-                    </div> --}}
                     <p>Terkumpul: Rp. 1.511.620,00</p>
                     <p>Sisa: 31 hari</p>
+                    </div> --}}
                     <a href="#" class="btn btn-primary" onclick="showDetail(
                             'Perlengkapan sekolah seperti buku, alat tulis, seragam, dan peralatan lainnya adalah hal-hal dasar yang dibutuhkan oleh anak-anak untuk belajar dengan baik. Namun, banyak anak di Palestina yang kekurangan perlengkapan ini. Donasi Anda dapat membantu menyediakan segala yang mereka butuhkan untuk pendidikan yang layak. Bersama kita dapat memberikan mereka alat untuk meraih masa depan yang lebih baik dan memutus siklus kemiskinan.',
                             'Galuh Shoutika',
