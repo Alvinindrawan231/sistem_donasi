@@ -23,7 +23,7 @@ class DaftarController extends Controller
     public function store(Request $request)
     {
         $validatedData = $request->validate([
-            'name' => 'required',
+            'name' => 'required|regex:/^[\pL\s\-]+$/u',
             'email' => 'required|email|unique:daftars,email',
             'telephone' => 'required',
             'address' => 'required',
